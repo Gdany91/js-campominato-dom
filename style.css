@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: wheat;
+    min-height: 100px;
+    margin: 60px 100px;
+}
+
+#btn {
+    margin-right: 100px;
+    width:60px ;
+    cursor: pointer;
+}
+
+h1{
+    margin-left: 100px;
+}
+
+.square{
+    width:calc(10% - 10px) ;
+    height: 100px;
+    background-color: burlywood;
+    margin: 2px;
+    cursor: pointer;
+    
+
+}
+
+.clicked{
+    background-color: brown;
+}
+
+.square:hover{
+    opacity: 0.5;
+}
