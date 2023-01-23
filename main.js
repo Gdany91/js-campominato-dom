@@ -63,7 +63,7 @@ function randomOrder(howMany, minNumb, maxNumb) {
           
          }
         
-      }
+    }
 }
 
 
